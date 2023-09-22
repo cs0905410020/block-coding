@@ -24,18 +24,15 @@
 import React from 'react';
 import './App.css';
 
-import logo from './logo.svg';
-
 import BlocklyComponent, { Block, Value, Field, Shadow } from './Blockly';
 
 import './blocks/customblocks';
 import './generator/generator';
 
-function App(props) {
+function App() {
   return (
       <div className="App">
         <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
           <BlocklyComponent readOnly={false}
                             trashcan={true} media={'media/'}
                             move={{
