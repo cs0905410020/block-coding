@@ -52,6 +52,7 @@ function App() {
             <Block type="logic_operation" />
             <Block type="controls_repeat_ext">
               <Value name="TIMES">
+
                 <Shadow type="math_number">
                   <Field name="NUM">10</Field>
                 </Shadow>
